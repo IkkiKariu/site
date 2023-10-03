@@ -8,7 +8,7 @@
 <body>
     <div class="mediaForm">
         <form action="mediaRepresent.php" method="POST" enctype="multipart/form-data">
-            <label>File: </label><input name="image" type="file">
+            <label>File: </label><input name="files[]" type="file" multiple>
             <br>
             <button type="submit">Send!</button>
         </form>
